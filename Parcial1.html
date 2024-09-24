@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+
+
+    <!-- ESTILOS DESARROLLADOS -->
+    <link rel="stylesheet" href="estilo1.css" />
+
+    <!-- GENERALES -->
+    <title>Primer parcial</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="logo.png" />
+</head>
+
+<body >
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Presentacion.html">
+                <img class="d-inline-block" id="logo" src="logo.png" alt="LOGO DE UPIICSA" />
+                Aplicaciones multimedia
+            </a>
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link" href="index.html">Presentacion</a>
+                <a class="nav-link" href="index.html">Tareas</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="mb-3 text-center">TAREAS DEL PRIMER PARCIAL</h1>
+                <h2 class="mb-3 text-center">Estas son las tareas realizadas durante el primer parcial</h2>
+                <button class="custom-button" onclick="toggleTarea()">Ver Tarea 1: Tipos de Aplicaciones Multimedia</button>
+                <div id="tarea-info" class="hidden">
+                  <div class="row">
+                      <div class="col-10 m-auto">
+                          <h4 class="section-title">Aplicaciones Web</h4>
+                          <p class="section-paragraph">
+                              Las aplicaciones web son programas accesibles desde un navegador de
+                              internet y no requieren instalación en el dispositivo. Estas
+                              aplicaciones suelen estar desarrolladas con tecnologías como HTML,
+                              CSS, JavaScript y servidores backend (PHP, Node.js, Python, etc.).
+                              Su contenido multimedia puede incluir imágenes, videos, gráficos
+                              interactivos y sonido.
+                          </p>
+                          <img src="apmul.gif" class="section-image">
+                          <p class="fw-bold section-bold">Características:</p>
+                          <ul class="section-list">
+                              <li>Accesibles desde cualquier dispositivo con conexión a Internet.</li>
+                              <li>Generalmente actualizadas centralmente por el servidor.</li>
+                              <li>Funcionan en diferentes plataformas.</li>
+                          </ul>
+                      </div>
+                  </div>
+              
+                  <div class="row">
+                      <div class="col-10 m-auto">
+                          <h4 class="section-title">Aplicaciones Cliente-Servidor</h4>
+                          <p class="section-paragraph">
+                              Las aplicaciones cliente-servidor se dividen en dos componentes
+                              principales: el cliente, que interactúa con el usuario, y el
+                              servidor, que procesa y almacena los datos. El cliente puede ser un
+                              programa instalado en un dispositivo o una interfaz web.
+                          </p>
+                          <img src="clienteserv.png" class="section-image">
+                          <p class="fw-bold section-bold">Características:</p>
+                          <ul class="section-list">
+                              <li>La lógica de la aplicación se distribuye entre el cliente y el servidor.</li>
+                              <li>Las aplicaciones pueden usar multimedia en la interfaz del cliente.</li>
+                              <li>Ejemplos incluyen aplicaciones bancarias y juegos en línea.</li>
+                          </ul>
+                      </div>
+                  </div>
+              
+                  <div class="row">
+                      <div class="col-10 m-auto">
+                          <h4 class="section-title">Aplicaciones Móviles</h4>
+                          <p class="section-paragraph">
+                              Estas aplicaciones están diseñadas específicamente para dispositivos
+                              móviles, como teléfonos y tablets. Suelen aprovechar características
+                              del dispositivo, como la cámara, el GPS y la pantalla táctil.
+                          </p>
+                          <img src="apmov.gif" class="section-image">
+                          <p class="fw-bold section-bold">Características:</p>
+                          <ul class="section-list">
+                              <li>Disponibles en tiendas de aplicaciones como Google Play o App Store.</li>
+                              <li>Pueden contener contenido multimedia local o descargado.</li>
+                              <li>Ejemplos: Instagram, juegos móviles, editores de video móviles.</li>
+                          </ul>
+                      </div>
+                  </div>
+              
+                  <div class="row">
+                      <div class="col-10 m-auto">
+                          <h4 class="section-title">Aplicaciones Ubicuas</h4>
+                          <p class="section-paragraph">
+                              Las aplicaciones ubicuas están diseñadas para integrarse en el
+                              entorno y proporcionar servicios sin que el usuario tenga que
+                              realizar acciones directas. Se basan en la computación ubicua, que
+                              busca hacer la tecnología "invisible".
+                          </p>
+                          <img src="apubicua.jpg" class="section-image">
+                          <p class="fw-bold section-bold">Características:</p>
+                          <ul class="section-list">
+                              <li>Funciona en segundo plano y se adapta al contexto y ubicación del usuario.</li>
+                              <li>Uso de múltiples dispositivos y sensores para una experiencia personalizada.</li>
+                              <li>Ejemplos: sistemas de domótica, asistentes inteligentes como Alexa o Google Home.</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <footer>
+        <p>©Areli, Marisol, Zaid..</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
